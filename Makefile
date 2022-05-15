@@ -5,4 +5,7 @@ OUT = out
 
 default:
 	$(CC) $(IN) -o $(OUT) $(CFLAGS)
+
+debug:
+	$(CC) $(IN) -o $(OUT) $(CFLAGS)
 	./$(OUT)

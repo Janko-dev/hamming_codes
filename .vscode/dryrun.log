@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `/c/Users/janba/C-dev/Hamming_Codes'
+gcc main.c la.c -o out -Wall -Wextra
+ 
+make.exe: Leaving directory `/c/Users/janba/C-dev/Hamming_Codes'
+ 
