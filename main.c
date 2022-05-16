@@ -119,7 +119,6 @@ int main(int argc, char** argv){
     print_matrix(H);
 
     Vector* encoded_vec = encode(G, vec_nibble);
-    print_vector(encoded_vec);
     uint8_t encoded_byte = vec_to_byte(encoded_vec);
     printf("Encoded byte: 0x%x\n", encoded_byte);
     
