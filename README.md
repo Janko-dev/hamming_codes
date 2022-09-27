@@ -1,8 +1,8 @@
 # Hamming Codes
-Linear algebra to illustrate hamming codes. 4 bits of data must be provided by which 4 additional parity bits are generated to encode the data as a byte. In the ASCII standard, 4 bits are encoded with 3 parity bits, because the most significant bit is unused, leading to a [7, 3] hamming code. However I used the most significant bit by which [8, 4] hamming codes can be generated. The mechanism allows for the localisation and correction of singe bit errors.
+An example of the usage of linear algebra to illustrate the concept of hamming codes. 4 bits of data must be provided by which 4 additional parity bits are generated to encode the data as a byte. In the ASCII standard, 4 bits are encoded with 3 parity bits, because the most significant bit is unused, leading to a `[7, 3] hamming code`. However, I used the most significant bit by which `[8, 4] hamming codes` can be generated. The mechanism allows for the localisation and correction of singe bit errors.
 
 ## Quick start
-```
+``` Console
 > make
 > ./hc 0010
 ```
